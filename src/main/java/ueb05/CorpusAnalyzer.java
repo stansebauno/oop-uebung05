@@ -44,7 +44,7 @@ class CorpusAnalyzer {
 
 	/**
 	 * Gibt eine Liste von allen Titeln zurueck, wobei Woerter so ersetzt werden,
-	 * wie sie in der Map abgebildet werden.
+	 * wie sie in der Map abgebildet werden, und die Liste nach Stringlaenge absteigend sortiert ist.
 	 */
 	List<String> normalizedTheses(Map<String, String> replace) {
 		throw new UnsupportedOperationException();
